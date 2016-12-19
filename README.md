@@ -19,7 +19,7 @@ From time to time, LogRhythm’s System Monitor agents may become unresponsive, 
  		PS C:\> .\scsm-restart.ps1
         This gathers default data and stores the results in the directory that the script was executed from.
 				or download and execute the script (you should stage this on your own server / within your own repo)
-		PS C:\> IEX (New-Object Net.WebClient).DownloadString('<TBD>');
+		PS C:\> IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/LogRhythm-Labs/System-Monitor-Agent-Maintenance/master/scsm-restart.ps1');
 
 #####Run SCSM-Restart on remote host:
 
